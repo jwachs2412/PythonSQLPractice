@@ -64,6 +64,7 @@ print(a)  # Print the dictionary after setdefault
 
 popped: str = a.pop(42)       # Remove the key-value pair with key 42
 print(popped)    # Print the popped value
+del a[42]          # Another way to remove key 42
 print(a)         # Print the dictionary after popping key 42
 
 a.popitem()  # Will remove the last inserted item in Python 3.7+
