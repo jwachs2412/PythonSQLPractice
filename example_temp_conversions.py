@@ -11,5 +11,7 @@ def celsius_to_fahrenheit(temp):
 # Example usage
 fahrenheit_to_celsius(32)  # Output: 0.0
 fahrenheit_to_celsius(100)  # Output: 37.77777777777778
+fahrenheit_to_celsius(-80)  # Output: -62.22222222222222
 celsius_to_fahrenheit(0)    # Output: 32.0
 celsius_to_fahrenheit(37.5)  # Output: 99.5
+celsius_to_fahrenheit(-40)  # Output: -40.0
