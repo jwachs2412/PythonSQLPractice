@@ -45,7 +45,7 @@ print(a.keys())    # Print all keys dict_keys
 print(a.values())  # Print all values dict_values
 print(a.items())   # Print all key-value pairs
 
-my_copy = dict = a.copy()  # Create a shallow copy of the dictionary
+my_copy = a.copy()  # Create a shallow copy of the dictionary
 print(my_copy)  # Print the copied dictionary
 
 # Show that the original and copied dictionaries are different objects; updates to one will affect the other only if the values are mutable and modified in place
