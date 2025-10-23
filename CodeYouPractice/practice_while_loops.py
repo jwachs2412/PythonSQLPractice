@@ -4,8 +4,7 @@ name = input("Enter your name: ")
 while name == "":
     print("You did not enter your name")
     name = input("Enter your name: ")
-else:
-    print(f"Hello {name}!")
+print(f"Hello {name}!")
 
 # Example 2
 age = int(input("Enter your age: "))
