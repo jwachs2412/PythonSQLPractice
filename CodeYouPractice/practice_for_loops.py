@@ -40,12 +40,20 @@ for x in [1, 2, 3, 4]:
     print(x)
 
 
-# Practice
+# Practice (uses more memory because we are storing numbers in a list and then getting the count in our print statement)
 evenNumList = []
 
 for x in range(1, 10):
     if x % 2 == 0:
         evenNumList.append(x)
         print(x)
-
 print(f"We have {len(evenNumList)} even numbers")
+
+# Practice - Mosh's solution (uses less memory; just doesn't store the numbers which we don't technically need to in the example)
+count = 0
+
+for number in range(1, 10):
+    if number % 2 == 0:
+        count += 1
+        print(number)
+print(f"We have {count} even numbers.")
