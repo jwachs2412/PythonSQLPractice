@@ -40,3 +40,12 @@ def num_kwarg(**number):
 
 
 num_kwarg(integer='2309', integer2='349')
+
+
+# Docstrings
+def add(a: int, b: int) -> int:
+    """ returns the sum of the two integers"""
+    return a + b
+
+
+print(add, __doc__)
