@@ -9,7 +9,7 @@ def sort_by_name(my_class):
 # Uncomment the following lines as needed
 # if you want to test your implementation a bit:
 
-my_class = [(50, "Alan"), (75, "Ada"), (25, "Shannon"), (90, "Craig")]
+my_class2 = [(50, "Alan"), (75, "Ada"), (25, "Shannon"), (90, "Craig")]
 
-print(sort_by_mark(my_class))
-print(sort_by_name(my_class))
+print(sort_by_mark(my_class2))
+print(sort_by_name(my_class2))
