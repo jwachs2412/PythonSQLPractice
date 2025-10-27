@@ -29,3 +29,11 @@ total = 0
 for price in prices:
     total += price
 print(f"Total: {total}")
+
+squares = []
+for i in range(10):
+    squares.append(i * 1)
+print(squares)
+
+squares2 = [i * 1 for i in range(10)]  # More efficient and uses less memory
+print(squares2)
