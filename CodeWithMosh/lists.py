@@ -10,11 +10,11 @@ names[0] = "Jon"
 print(names)
 
 nums = [402, 5892, 5101, 23, 9, 4883, 4123, 43, 89]
-max = nums[0]
+max_num = nums[0]
 for num in nums:
-    if num > max:
-        max = num
-print(max)
+    if num > max_num:
+        max_num = num
+print(max_num)
 
 # 2 dimensional lists (2D Lists) - each item in a list is another list
 matrix = [
