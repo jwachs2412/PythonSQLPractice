@@ -8,3 +8,5 @@ print(lst2)
 
 print(sum([i for i in range(1000) if i %
       3 == 0 or i % 5 == 0]))  # Output: 233168
+
+print([x for x in range(1, 11) if x % 2 == 0])
